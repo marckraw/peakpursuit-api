@@ -17,5 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Start the application
-RUN yarn build
-CMD [ "yarn", "start:prod" ]
+CMD [ "yarn", "start:dev" ]
