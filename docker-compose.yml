@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  dev-db:
+    image: postgres:15
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: marckraw
+      POSTGRES_PASSWORD: marckraw
+      POSTGRES_DB: peakpursuit
+    networks:
+      - peakpursuit
+
+networks:
+  peakpursuit:
