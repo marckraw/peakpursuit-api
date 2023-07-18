@@ -1,6 +1,12 @@
 # Use an official Node.js runtime as the base image
 FROM node:18
 
+ENV POSTGRES_HOST=localhost
+ENV POSTGRES_PORT=5432
+ENV POSTGRES_DB=peakpursuit
+ENV POSTGRES_USER=marckraw
+ENV POSTGRES_PASSWORD=marckraw
+
 # Set the working directory in the container to /app
 WORKDIR /app
 

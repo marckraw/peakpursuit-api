@@ -20,7 +20,7 @@
     "test:e2e": "cross-env NODE_ENV=test jest --config ./test/jest-e2e.json --maxWorkers=1",
     "#": "################################################## DOCKER ##################################################",
     "docker:build": "docker build -t peakpursuit-api .",
-    "docker:build:dev": "docker build -t peakpursuit-api-dev -f Dockerfile.dev .",
+    "docker:build:dev": "docker build -t peakpursuit-api-dev -f dev.Dockerfile .",
     "docker:run": "docker run -p 8080:8080 peakpursuit-api",
     "docker:run:dev": "docker run -p 8080:8080 -v $(pwd):/app peakpursuit-api-dev",
     "docker:db": "docker-compose up -d",
