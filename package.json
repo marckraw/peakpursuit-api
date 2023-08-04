@@ -41,10 +41,11 @@
     "class-validator": "^0.14.0",
     "cookie-parser": "^1.4.6",
     "cookie-session": "^2.0.0",
+    "date-fns": "^2.30.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.5.5",
     "sqlite3": "^5.1.6",
-    "typeorm": "^0.3.11"
+    "typeorm": "0.3.11"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.1.11",
